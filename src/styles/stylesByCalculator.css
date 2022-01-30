@@ -7,7 +7,7 @@ body {
     background: orangered;
 }
 
-.calc-grid {
+.calcGrid {
     display: grid;
     margin-top: 2rem;
     justify-content: center;
@@ -15,15 +15,15 @@ body {
     grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
 
 }
-.calc-grid button {
+.calcGrid button {
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, 0.75);
 }
-.calc-grid button:hover,
-.calc-grid button:focus{
+.calcGrid button:hover,
+.calcGrid button:focus{
     background-color: rgba(255, 255, 255, 0.9);
 }
 .bigBtn{
@@ -40,11 +40,11 @@ body {
     word-wrap: break-word;
     word-break: break-all;
 }
-output .previous-operand {
+output .previousOperand {
     color: rgba(255, 255, 255, 0.75);
     font-size: 1.5rem;
 }
-output .current-operand {
+output .currentOperand {
     color: white;
     font-size: 2.5rem;
 }
